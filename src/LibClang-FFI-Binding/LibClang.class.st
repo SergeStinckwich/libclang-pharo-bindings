@@ -212,6 +212,6 @@ LibClang class >> initializeUnions [
 { #category : #'library path' }
 LibClang >> macModuleName [
 	"Use the libclang installed by brew"
-	^ '/usr/local/Cellar/llvm/5.0.1/lib/libclang.dylib' asFileReference fullName
+	^ '/usr/local/Cellar/llvm/6.0.0/lib/libclang.dylib' asFileReference fullName
 	
 ]
